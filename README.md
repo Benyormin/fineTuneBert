@@ -15,6 +15,15 @@ The BERT model used in this project is pre-trained on a large corpus of text dat
 The training procedure involves 10-fold cross-validation, where the dataset is split into 10 equal-sized folds, and the model is trained and evaluated on each fold separately. Cross-entropy loss function is used as the optimization criterion, and the model's performance is evaluated based on accuracy.
 
 ## Results
+
+|  - | fold 1 | fold 2 | fold 3 | fold 4 | fold 5 | fold 6 | fold 7 | fold 8 | fold 9 | fold 10 |
+|----------------------|-----------------|-----------------|-----------------|-----------------|-----------------|-----------------|-----------------|-----------------|-----------------|-----------------|
+| Accuracy | 0.888594164456233 | 0.880636604774535 | 0.909090909090909 | 0.885941644562334 | 0.907161803713527 | 0.893899204244031 | 0.913419913419913 | 0.917771883289124| 0.891246684350132| 0.941644562334217 |
+| F1-score | 0.913934426229508 | 0.909090909090909 | 0.925438596491228 | 0.914512922465208 | 0.927234927234927 | 0.913419913419913 | 0.947976878612716 | 0.933333333333333| 0.914760914760914| 0.955465587044534 | 
+
+
+
+
 After 10-fold cross-validation, the average accuracy achieved by the fine-tuned BERT model on the CR dataset is 0.9029, demonstrating its effectiveness in sentiment analysis tasks.
 
 ## Requirements
@@ -39,7 +48,7 @@ To reproduce the experiments and fine-tune the BERT model on the CR dataset, fol
 
 1- Download jupyter notebook and upload it to [google colab](https://colab.research.google.com)
 
-2- Go to your google drive and Create these directories recursively nlp/datasets/CR_DATASET
+2- Go to your google drive and Create these directories recursively nlp/datasets/CR_DATASET, nlp/saved_models/cross_validation (Or you can change it in code)
 
 3- Run all cells for first fold of cross validation then go to the ```Load each fold``` section and Run all cells after that for each fold
 
