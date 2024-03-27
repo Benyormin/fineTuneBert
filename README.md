@@ -24,7 +24,7 @@ The training procedure involves 10-fold cross-validation, where the dataset is s
 
 
 
-After 10-fold cross-validation, the average accuracy achieved by the fine-tuned BERT model on the CR dataset is 0.9029, demonstrating its effectiveness in sentiment analysis tasks.
+After 10-fold cross-validation, the average accuracy achieved by the fine-tuned BERT model on the CR dataset is 0.9029 and the average F1-score is 0.9255, demonstrating its effectiveness in sentiment analysis tasks.
 
 ## Requirements
 Python 
