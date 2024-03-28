@@ -1,0 +1,56 @@
+{
+  "builder_name": "json",
+  "citation": "",
+  "config_name": "default",
+  "dataset_name": "cr",
+  "dataset_size": 443400,
+  "description": "",
+  "download_checksums": {
+    "hf://datasets/SetFit/CR@01e427e689e9d3a9097f85eab7a91ce937cf5f98/train.jsonl": {
+      "num_bytes": 493095,
+      "checksum": null
+    },
+    "hf://datasets/SetFit/CR@01e427e689e9d3a9097f85eab7a91ce937cf5f98/test.jsonl": {
+      "num_bytes": 52095,
+      "checksum": null
+    }
+  },
+  "download_size": 545190,
+  "features": {
+    "text": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "label": {
+      "dtype": "int64",
+      "_type": "Value"
+    },
+    "label_text": {
+      "dtype": "string",
+      "_type": "Value"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 988590,
+  "splits": {
+    "train": {
+      "name": "train",
+      "num_bytes": 401457,
+      "num_examples": 3394,
+      "dataset_name": "cr"
+    },
+    "test": {
+      "name": "test",
+      "num_bytes": 41943,
+      "num_examples": 376,
+      "dataset_name": "cr"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}
