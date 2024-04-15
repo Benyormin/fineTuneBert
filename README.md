@@ -6,7 +6,7 @@
 This repository contains code for fine-tuning a BERT (Bidirectional Encoder Representations from Transformers) model for sentiment analysis on the Customer Reviews (CR) dataset using 10-fold cross-validation and cross-entropy loss function. The goal is to classify customer reviews into positive or negative sentiment categories.
 
 ## Dataset
-The Customer Reviews (CR) dataset is a widely used benchmark dataset in the field of natural language processing (NLP) and sentiment analysis. It consists of a large collection of customer reviews from various domains such as electronics, movies, books, and more. Each review in the dataset is accompanied by a corresponding sentiment label indicating whether the sentiment expressed in the review is positive, negative, or neutral.
+The Customer Reviews (CR) dataset is a widely used benchmark dataset in the field of natural language processing (NLP) and sentiment analysis. It consists of a large collection of customer reviews from various domains such as electronics, movies, books, and more. Each review in the dataset is accompanied by a corresponding sentiment label indicating whether the sentiment expressed in the review is positive or negative.
 
 ## Model
 The BERT model used in this project is pre-trained on a large corpus of text data and fine-tuned on the CR dataset for sentiment analysis. BERT is a powerful transformer-based model that captures contextual information from both left and right contexts of words in a sentence, making it well-suited for various NLP tasks, including sentiment analysis.
